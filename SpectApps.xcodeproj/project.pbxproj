@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8462AB5E2E2A8C8500EA53A2 /* SpectAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462AB5D2E2A8C8500EA53A2 /* SpectAppsApp.swift */; };
+		8462AB602E2A8C8500EA53A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462AB5F2E2A8C8500EA53A2 /* ContentView.swift */; };
+		8462AB622E2A8C8600EA53A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8462AB612E2A8C8600EA53A2 /* Assets.xcassets */; };
+		8462AB652E2A8C8600EA53A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8462AB642E2A8C8600EA53A2 /* Preview Assets.xcassets */; };
+		8462AB6F2E2A8C8600EA53A2 /* SpectAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462AB6E2E2A8C8600EA53A2 /* SpectAppsTests.swift */; };
+		8462AB792E2A8C8600EA53A2 /* SpectAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462AB782E2A8C8600EA53A2 /* SpectAppsUITests.swift */; };
+		8462AB7B2E2A8C8600EA53A2 /* SpectAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462AB7A2E2A8C8600EA53A2 /* SpectAppsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8462AB6B2E2A8C8600EA53A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8462AB522E2A8C8500EA53A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8462AB592E2A8C8500EA53A2;
+			remoteInfo = SpectApps;
+		};
+		8462AB752E2A8C8600EA53A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8462AB522E2A8C8500EA53A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8462AB592E2A8C8500EA53A2;
+			remoteInfo = SpectApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8462AB5A2E2A8C8500EA53A2 /* SpectApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8462AB5D2E2A8C8500EA53A2 /* SpectAppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectAppsApp.swift; sourceTree = "<group>"; };
+		8462AB5F2E2A8C8500EA53A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8462AB612E2A8C8600EA53A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8462AB642E2A8C8600EA53A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8462AB6A2E2A8C8600EA53A2 /* SpectAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8462AB6E2E2A8C8600EA53A2 /* SpectAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectAppsTests.swift; sourceTree = "<group>"; };
+		8462AB742E2A8C8600EA53A2 /* SpectAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8462AB782E2A8C8600EA53A2 /* SpectAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectAppsUITests.swift; sourceTree = "<group>"; };
+		8462AB7A2E2A8C8600EA53A2 /* SpectAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8462AB572E2A8C8500EA53A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462AB672E2A8C8600EA53A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462AB712E2A8C8600EA53A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8462AB512E2A8C8500EA53A2 = {
+			isa = PBXGroup;
+			children = (
+				8462AB5C2E2A8C8500EA53A2 /* SpectApps */,
+				8462AB6D2E2A8C8600EA53A2 /* SpectAppsTests */,
+				8462AB772E2A8C8600EA53A2 /* SpectAppsUITests */,
+				8462AB5B2E2A8C8500EA53A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8462AB5B2E2A8C8500EA53A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8462AB5A2E2A8C8500EA53A2 /* SpectApps.app */,
+				8462AB6A2E2A8C8600EA53A2 /* SpectAppsTests.xctest */,
+				8462AB742E2A8C8600EA53A2 /* SpectAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8462AB5C2E2A8C8500EA53A2 /* SpectApps */ = {
+			isa = PBXGroup;
+			children = (
+				8462AB5D2E2A8C8500EA53A2 /* SpectAppsApp.swift */,
+				8462AB5F2E2A8C8500EA53A2 /* ContentView.swift */,
+				8462AB612E2A8C8600EA53A2 /* Assets.xcassets */,
+				8462AB632E2A8C8600EA53A2 /* Preview Content */,
+			);
+			path = SpectApps;
+			sourceTree = "<group>";
+		};
+		8462AB632E2A8C8600EA53A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8462AB642E2A8C8600EA53A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8462AB6D2E2A8C8600EA53A2 /* SpectAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8462AB6E2E2A8C8600EA53A2 /* SpectAppsTests.swift */,
+			);
+			path = SpectAppsTests;
+			sourceTree = "<group>";
+		};
+		8462AB772E2A8C8600EA53A2 /* SpectAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8462AB782E2A8C8600EA53A2 /* SpectAppsUITests.swift */,
+				8462AB7A2E2A8C8600EA53A2 /* SpectAppsUITestsLaunchTests.swift */,
+			);
+			path = SpectAppsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8462AB592E2A8C8500EA53A2 /* SpectApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8462AB7E2E2A8C8600EA53A2 /* Build configuration list for PBXNativeTarget "SpectApps" */;
+			buildPhases = (
+				8462AB562E2A8C8500EA53A2 /* Sources */,
+				8462AB572E2A8C8500EA53A2 /* Frameworks */,
+				8462AB582E2A8C8500EA53A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpectApps;
+			productName = SpectApps;
+			productReference = 8462AB5A2E2A8C8500EA53A2 /* SpectApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8462AB692E2A8C8600EA53A2 /* SpectAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8462AB812E2A8C8600EA53A2 /* Build configuration list for PBXNativeTarget "SpectAppsTests" */;
+			buildPhases = (
+				8462AB662E2A8C8600EA53A2 /* Sources */,
+				8462AB672E2A8C8600EA53A2 /* Frameworks */,
+				8462AB682E2A8C8600EA53A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8462AB6C2E2A8C8600EA53A2 /* PBXTargetDependency */,
+			);
+			name = SpectAppsTests;
+			productName = SpectAppsTests;
+			productReference = 8462AB6A2E2A8C8600EA53A2 /* SpectAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8462AB732E2A8C8600EA53A2 /* SpectAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8462AB842E2A8C8600EA53A2 /* Build configuration list for PBXNativeTarget "SpectAppsUITests" */;
+			buildPhases = (
+				8462AB702E2A8C8600EA53A2 /* Sources */,
+				8462AB712E2A8C8600EA53A2 /* Frameworks */,
+				8462AB722E2A8C8600EA53A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8462AB762E2A8C8600EA53A2 /* PBXTargetDependency */,
+			);
+			name = SpectAppsUITests;
+			productName = SpectAppsUITests;
+			productReference = 8462AB742E2A8C8600EA53A2 /* SpectAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8462AB522E2A8C8500EA53A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8462AB592E2A8C8500EA53A2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8462AB692E2A8C8600EA53A2 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8462AB592E2A8C8500EA53A2;
+					};
+					8462AB732E2A8C8600EA53A2 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8462AB592E2A8C8500EA53A2;
+					};
+				};
+			};
+			buildConfigurationList = 8462AB552E2A8C8500EA53A2 /* Build configuration list for PBXProject "SpectApps" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8462AB512E2A8C8500EA53A2;
+			productRefGroup = 8462AB5B2E2A8C8500EA53A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8462AB592E2A8C8500EA53A2 /* SpectApps */,
+				8462AB692E2A8C8600EA53A2 /* SpectAppsTests */,
+				8462AB732E2A8C8600EA53A2 /* SpectAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8462AB582E2A8C8500EA53A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462AB652E2A8C8600EA53A2 /* Preview Assets.xcassets in Resources */,
+				8462AB622E2A8C8600EA53A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462AB682E2A8C8600EA53A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462AB722E2A8C8600EA53A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8462AB562E2A8C8500EA53A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462AB602E2A8C8500EA53A2 /* ContentView.swift in Sources */,
+				8462AB5E2E2A8C8500EA53A2 /* SpectAppsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462AB662E2A8C8600EA53A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462AB6F2E2A8C8600EA53A2 /* SpectAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462AB702E2A8C8600EA53A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462AB7B2E2A8C8600EA53A2 /* SpectAppsUITestsLaunchTests.swift in Sources */,
+				8462AB792E2A8C8600EA53A2 /* SpectAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8462AB6C2E2A8C8600EA53A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8462AB592E2A8C8500EA53A2 /* SpectApps */;
+			targetProxy = 8462AB6B2E2A8C8600EA53A2 /* PBXContainerItemProxy */;
+		};
+		8462AB762E2A8C8600EA53A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8462AB592E2A8C8500EA53A2 /* SpectApps */;
+			targetProxy = 8462AB752E2A8C8600EA53A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8462AB7C2E2A8C8600EA53A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8462AB7D2E2A8C8600EA53A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8462AB7F2E2A8C8600EA53A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpectApps/Preview Content\"";
+				DEVELOPMENT_TEAM = RP63D4P82B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Intestech.SpectApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8462AB802E2A8C8600EA53A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpectApps/Preview Content\"";
+				DEVELOPMENT_TEAM = RP63D4P82B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Intestech.SpectApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8462AB822E2A8C8600EA53A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP63D4P82B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Intestech.SpectAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpectApps";
+			};
+			name = Debug;
+		};
+		8462AB832E2A8C8600EA53A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP63D4P82B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Intestech.SpectAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpectApps";
+			};
+			name = Release;
+		};
+		8462AB852E2A8C8600EA53A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP63D4P82B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Intestech.SpectAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpectApps;
+			};
+			name = Debug;
+		};
+		8462AB862E2A8C8600EA53A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP63D4P82B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Intestech.SpectAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpectApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8462AB552E2A8C8500EA53A2 /* Build configuration list for PBXProject "SpectApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8462AB7C2E2A8C8600EA53A2 /* Debug */,
+				8462AB7D2E2A8C8600EA53A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8462AB7E2E2A8C8600EA53A2 /* Build configuration list for PBXNativeTarget "SpectApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8462AB7F2E2A8C8600EA53A2 /* Debug */,
+				8462AB802E2A8C8600EA53A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8462AB812E2A8C8600EA53A2 /* Build configuration list for PBXNativeTarget "SpectAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8462AB822E2A8C8600EA53A2 /* Debug */,
+				8462AB832E2A8C8600EA53A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8462AB842E2A8C8600EA53A2 /* Build configuration list for PBXNativeTarget "SpectAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8462AB852E2A8C8600EA53A2 /* Debug */,
+				8462AB862E2A8C8600EA53A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8462AB522E2A8C8500EA53A2 /* Project object */;
+}
