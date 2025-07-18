@@ -18,29 +18,26 @@ struct ContentView: View {
 
             // MARK: Image Picker Area
             ZStack {
-                RoundedRectangle(cornerRadius: 16)
-                    .stroke(style: StrokeStyle(lineWidth: 2, dash: [6]))
-                    .foregroundStyle(.gray.opacity(0.5))
-
-                if let uiImage = selectedImage {
-                    Image(uiImage: uiImage)
-                        .resizable()
-                        .scaledToFit()
-                        .clipShape(RoundedRectangle(cornerRadius: 14))
-                        .padding(4)
-                } else {
-                    VStack(spacing: 8) {
-                        Image(systemName: "photo.on.rectangle.angled")
-                            .font(.system(size: 48))
-                            .foregroundStyle(.secondary)
-                        Text("Görsel seçmek için dokun")
-                            .font(.footnote)
-                            .foregroundStyle(.secondary)
+                GeometryReader { geo in
+                    if let uiImage = selectedImage {
+                        Image(uiImage: uiImage)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: geo.size.width, height: geo.size.height)
+                            .clipped()
+                    } else {
+                        VStack(spacing: 8) {
+                            Image(systemName: "photo.on.rectangle.angled")
+                                .font(.system(size: 48))
+                                .foregroundStyle(.secondary)
+                            Text("Görsel seçmek için dokun")
+                                .font(.footnote)
+                                .foregroundStyle(.secondary)
+                        }
+                        .frame(width: geo.size.width, height: geo.size.height)
+                        .contentShape(Rectangle())
                     }
-                    .padding()
                 }
-
-                // Invisible tappable layer that opens the picker
                 PhotosPicker(selection: $selectedItem,
                              matching: .images,
                              photoLibrary: .shared()) {
@@ -50,16 +47,22 @@ struct ContentView: View {
                     guard let item = selectedItem else { return }
                     do {
                         if let data = try await item.loadTransferable(type: Data.self),
-                        let uiImage = UIImage(data: data) {
-                            selectedImage = uiImage   // <-- DOĞRU state
+                           let uiImage = UIImage(data: data) {
+                            selectedImage = uiImage
                         }
                     } catch {
                         print("Görsel yüklenemedi:", error.localizedDescription)
                     }
-                 }
+                }
             }
             .frame(maxWidth: .infinity)
             .frame(height: 300)
+            .clipShape(RoundedRectangle(cornerRadius: 16))
+            .overlay(
+                RoundedRectangle(cornerRadius: 16)
+                    .stroke(style: StrokeStyle(lineWidth: 2, dash: [6]))
+                    .foregroundStyle(.gray.opacity(0.5))
+            )
             .padding(.horizontal)
 
             // MARK: Prompt Editor
